@@ -1,0 +1,86 @@
+.title{
+  font-weight: 800;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.snap{
+  display: flex;
+  gap: 8px;
+  align-items: baseline;
+  justify-content: center;
+}
+.btn{
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  align-items: center;
+}
+legend{
+  font-weight: 700;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  padding: 6px;
+}
+.closeBtn{
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  padding: 10px;
+  background-color: red;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+.closeBtn:hover{
+  background-color: rgb(0, 86, 179);
+}
+input{
+  margin: 4px 0;
+  border-width: 1px;
+  border-radius: 4px;
+  padding: 2px 4px;
+  outline: none;
+}
+input:active, input:focus{
+  border-bottom: 2px solid rgb(38, 111, 190);
+}
+label {
+  display: flex;
+  margin-bottom: 5px;
+  text-wrap: nowrap;
+}   
+
+fieldset{
+  border: 1px solid gray;
+  padding: 0 18px;
+  border-radius: 8px;
+}
+#popup-content {
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+  width: max-content;
+}
+.winBtn {
+  padding: 5px 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  text-wrap: nowrap;
+  border-radius: 4px;
+  margin: 10px 0;
+  align-items: center;
+  justify-content: center;
+}
+.device{
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.winBtn:hover {
+  background-color: #0056b3;
+}

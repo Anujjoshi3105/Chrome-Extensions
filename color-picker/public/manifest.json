@@ -1,0 +1,12 @@
+{
+    "manifest_version": 3,
+    "name": "Color Picker",
+    "description": "Effortlessly pick multiple colors, save selections, and export color codes. Perfect for designers, developers, and artists.",
+    "version": "1.0",
+    "action": {
+        "default_popup": "index.html"
+    },
+    "icons": {
+        "512": "logo.png"
+    }
+}
